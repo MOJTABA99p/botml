@@ -1,6 +1,6 @@
 from rubika import Bot
 
-bot = Bot("Ape", auth="ovcnpokcpqhlyppeoxfuechzgkupffva")
+bot = Bot("Ape", auth="rlgrjmtyjdolkacopryxyyqouiqjjnck")
 target = "g0B1HKt0342e19945a09836c396b4fd7"
 
 def hasAds(msg):
