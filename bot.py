@@ -70,7 +70,7 @@ while True:
 							except IndexError:
 								bot.deleteMessages(target, [msg.get("reply_to_message_id")])
 					
-						elif msg.get("text").startswith("!ban") and msg.get("author_object_guid") in admins :
+						elif msg.get("text").startswith("بن") and msg.get("author_object_guid") in admins :
 							try:
 								guid = bot.getInfoByUsername(msg.get("text").split(" ")[1][1:])["data"]["chat"]["abs_object"]["object_guid"]
 								if not guid in admins :
